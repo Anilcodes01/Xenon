@@ -1,10 +1,8 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
-import Login from "./pages/login/login";
-import Signup from "./pages/signup/signup";
-import Home from "./pages/home/home";
+import Login from "./pages/login/Hogin";
+import Signup from "./pages/signup/Signup";
+import Home from "./pages/home/Home";
 import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { useAuthContext } from "./context/AuthContext";
