@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
             <button disabled={loading} className="text-xl bg-gray-700 text-white mt-4  w-full font-bold hover:bg-gray-800 rounded-lg p-1 ">
               {loading ? <span className="loading loading-spinner"></span> : "Sign Up"}
             </button>
-            <div className="flex text-sm mt-2">
+            <div className="flex text-sm ml-20 justify-center items-center  mt-2">
                 <p>Already have an account?</p>
                 <a className="hover:text-blue-400 ml-1" href="/login">Login</a>
             </div>
